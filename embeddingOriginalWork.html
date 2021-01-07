@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Original Work</title>
+	</head>
+	<body>
+		<h1>Embedding Original Work</h1>
+
+		<section>
+			<h2>Level 1: Newbie</h2>
+			<section>
+				<h3>A Youtube Video</h3>
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/jIIEwTpSBAw"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</section>
+			<section>
+				<h3>A Google Map: Mary Gates Hall</h3>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.510529711874!2d-122.31020794855564!3d47.65507777908576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014f2a95c2899%3A0xb2525ccd291489c!2sMary%20Gates%20Hall%2C%20University%20of%20Washington!5e0!3m2!1sen!2sus!4v1609980040172!5m2!1sen!2sus"
+					width="560"
+					height="315"
+					frameborder="0"
+					style="border: 0"
+					allowfullscreen=""
+					aria-hidden="false"
+					tabindex="0"
+				></iframe>
+			</section>
+			<section>
+				<h3>A Link: gClass</h3>
+				<a href="http://winhost6.ischool.uw.edu/gclass/"
+					>Come Visit gClass!</a
+				>
+			</section>
+		</section>
+
+		<section>
+			<h2>Level 2: Apprentice</h2>
+			<section>
+				<h3>A Youtube Video (plays starting at minute 3)</h3>
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/jIIEwTpSBAw?start=180"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</section>
+			<section>
+				<h3>A Video Using the HTML5 Video Tag</h3>
+				<video controls width="560" height="315">
+					<source src="./media/video.mp4" type="video/mp4" />
+
+					Sorry, your browser doesn't support embedded videos.
+				</video>
+			</section>
+			<section>
+				<h3>A PDF With Object Tag</h3>
+				<object
+					type="application/pdf"
+					data="./media/sample.pdf"
+					width="560"
+					height="315"
+				></object>
+			</section>
+		</section>
+
+		<section>
+			<h2>Level 3: Master</h2>
+			<section>
+				<h3>
+					A Youtube Video (plays starting at minute 3 + autoplay +
+					muted)
+				</h3>
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/jIIEwTpSBAw?start=180&autoplay=1&mute=1"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</section>
+			<section>
+				<h3>
+					A Video & Audio File (plays using the HTML5 video and audio
+					tags)
+				</h3>
+				<video controls width="560" height="315">
+					<source src="./media/video.mp4" type="video/mp4" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
+				<br />
+				<audio controls>
+					<source src="./media/audio.mp3" type="audio/mpeg" />
+					Sorry, your browser does not support the audio tag.
+				</audio>
+			</section>
+			<section>
+				<h3>Markdown File With Object Tag (X Flash)</h3>
+				<object
+					type="text/markdown"
+					data="./README.md"
+					width="560"
+					height="100"
+				></object>
+			</section>
+			<section>
+				<h3>RSS Feed</h3>
+				<a href="http://your-site.com/your-feed.rss"><img alt="Subscribe to What's New" src="https://i.imgur.com/fZIDSoj.png" width="100" height="100">
+			</section>
+		</section>
+	</body>
+</html>
