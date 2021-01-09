@@ -6,3 +6,9 @@
 
     - index.html
     - embeddingOriginalWork.html
+
+2. HTML Tags
+
+    - tags.html
+    - someCss.html
+    - anExternal.css

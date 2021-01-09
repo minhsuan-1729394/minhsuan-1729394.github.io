@@ -1,0 +1,13 @@
+#brooklyn99 {
+	width: 150px;
+	height: 100px;
+	margin: 20px;
+}
+
+#txtOverImg {
+	position: absolute;
+	top: 290px;
+	left: 55px;
+	color: red;
+	background-color: white;
+}
