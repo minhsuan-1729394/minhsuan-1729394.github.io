@@ -1,3 +1,5 @@
+/* This is a copy of Info101 Activities / Intro to CSS / test.css */
+
 body {
 	background-image: url('dark_wood.png');
 }
@@ -53,15 +55,6 @@ ul {
 	float: left;
 	padding-bottom: 8px;
 	box-shadow: 5px 10px #888888; /* new 3 */
-}
-
-#LeftNav img {
-}
-
-#LeftNav ul {
-}
-
-#LeftNav h3 {
 }
 
 #Content {
